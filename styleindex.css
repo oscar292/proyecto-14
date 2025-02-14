@@ -27,7 +27,7 @@ body {
 }
 
 .moon:hover {
-  fill: red; /* Cambia este valor para el color al pasar el mouse */
+  fill: red;
 }
 
 @keyframes pulse {
@@ -49,7 +49,7 @@ body {
   color: #ffebd0;
   display: inline-block;
   line-height: 1.5;
-  opacity: 0; /* Inicialmente oculto */
+  opacity: 0;
   animation: fadeInText 1.5s forwards;
 }
 

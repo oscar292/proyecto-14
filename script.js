@@ -1,6 +1,6 @@
 const flipBook = (elBook) => {
   console.log("Initializing book...");
-  elBook.style.setProperty("--c", 0); // Set current page
+  elBook.style.setProperty("--c", 0);
   elBook.querySelectorAll(".page").forEach((page, idx) => {
     page.style.setProperty("--i", idx);
     page.addEventListener("click", (evt) => {

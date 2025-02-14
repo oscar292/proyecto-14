@@ -186,3 +186,24 @@ body {
     hsl(231, 32%, 29%) url("./foto.jpeg") 10% / cover;
   color: hsl(200, 57%, 50%);
 }
+
+/*Contenedor*/
+.svg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 300px;
+  margin: 20px auto;
+}
+
+.music-svg {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 600px) {
+  .svg-container {
+    max-width: 200px;
+  }
+}
