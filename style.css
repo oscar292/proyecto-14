@@ -207,3 +207,34 @@ body {
     max-width: 200px;
   }
 }
+
+.front p, .front-title, .back p {
+  margin: 1em;
+  padding: 0.5em;
+  text-align: justify;
+  line-height: 1.6;
+  color: rgb(0, 0, 0);
+  text-shadow: 5px 2px 5px rgb(204, 27, 27);
+  box-sizing: border-box;
+  max-width: calc(100% - 2em);
+}
+
+.img-container {
+  width: 80%;
+  margin: 1em auto;
+}
+
+.responsive-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.book {
+  width: 40cqmin;
+  max-width: 90%;
+  margin: auto;
+  perspective: 1000px;
+  transform-style: preserve-3d;
+  transition: translate 1s;
+}
