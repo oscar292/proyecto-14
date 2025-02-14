@@ -238,3 +238,7 @@ body {
   transform-style: preserve-3d;
   transition: translate 1s;
 }
+
+h3 {
+  color: #fff;
+}
