@@ -208,7 +208,7 @@ body {
   }
 }
 
-.front p, .front-title, .back p {
+.front p, .front-title, .back p, .front h2 {
   margin: 1em;
   padding: 0.5em;
   text-align: justify;
